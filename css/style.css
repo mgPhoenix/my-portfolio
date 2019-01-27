@@ -1,0 +1,427 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background: url("https://pp.userapi.com/c604422/v604422910/371dc/SnH9NxqIVLU.jpg") center;
+  background-size: 100%;
+  border-radius: 50%;
+}
+.description {
+  margin-left: 9px;
+}
+.menu-description {
+  font-size: 12px;
+}
+.name {
+  font-size: 16px;
+  font-weight: 800;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-button {
+  width: 128px;
+  height: 37px;
+  margin-left: 59px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #2b2a2c;
+  background: #fff;
+  border-radius: 19px;
+  border: 2px solid #2b2a2c;
+}
+.menu-button:hover {
+  transform: scale(1.02);
+}
+.menu-list nav a {
+  font-weight: 800;
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  margin-left: 38px;
+  position: relative;
+	line-height: 2;
+  display: inline;
+}
+.menu-list nav a:after{
+	display: block;
+	position: absolute;
+	content: "";
+  height: 2px;
+  width: 0%;
+  left:50%;
+  background-color: #2b2a2c;
+  transition: width .3s ease-in-out;
+  transform:translateX(-50%);
+}
+.menu-list nav a:hover:after,
+.menu-list nav a:focus:after{
+	width: 100%;
+}
+.hero-bg{
+  background: url("https://i.ibb.co/PhF5wxd/developer-photo.png") no-repeat right bottom;
+  padding-top: 112px;
+  padding-bottom: 124px;
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+.hero-title {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-size: 45px;
+  font-weight: 800px;
+}
+.hero-description {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top: 26px;
+}
+.social {
+  margin-right: 12px;
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg {
+  background-color: #1869ff;
+}
+.facebook-bg {
+  background-color: #3a5898;
+}
+.instagram-bg {
+  background-color: #13578a;
+}
+.vk-bg {
+  background-color: #56acef;
+}
+.hero-buttons {
+  margin-top: 42px;
+}
+.button {
+  width: 196px;
+  height: 52px;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 25px;
+  display: inline-block;
+  background-color: #2b2a2c;
+  text-align: center;
+  line-height: 52px;
+}
+.button:hover {
+  transform: scale(1.02);
+}
+.button-primory {
+  color: #fff;
+  box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.25);
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.button-o {
+  background-color: transparent;
+  border: 1px solid #6a696b;
+  color: #6a696b;
+}
+.projects {
+  margin-bottom: 136px;
+}
+.project-cards {
+  padding-top: 91px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card {
+  width: 370px;
+  min-height: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.project-card:hover {
+  transform: scale(1.02);
+}
+.project-card__image {
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.enterprise {
+  background: url(https://i.pinimg.com/originals/eb/c7/19/ebc7198dad0ee9e7942dab8d411befb2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Software {
+  background: url(http://vladmaxi.net/uploads/2013/06/PSD-maket-sayta-Software-v-temnom-stile1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.kinobase {
+  background: url(https://i2.wp.com/psd.in.ua/wp-content/uploads/maket-saita-video-tematika.jpg?w=600&ssl=1) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.websplash {
+  background: url(https://html-templates.info/images/items/150616030838.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Mobile-App {
+  background: url(http://vladmaxi.net/uploads/2013/06/Skachat-maket-sayta-PSD-dizayn-dlya-Mobile-Apps.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Sevent {
+  background: url(https://wp-query.ru/wp-content/uploads/2013/10/psd-templates-website-03-670x455.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ViewPort {
+  background: url(https://wp-query.ru/wp-content/uploads/2013/10/psd-templates-website-10-670x461.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Space {
+  background: url(http://vladmaxi.net/uploads/2013/09/PSD-maket-dlya-portfolio-Space.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hostcompare {
+  background: url(https://wp-query.ru/wp-content/uploads/2013/10/psd-templates-website-15.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project-card__info {
+  padding: 19px 20px 15px 13px;
+}
+.project-category {
+  display: block;
+  color: #2b2a2c;
+  font-size: 12px;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  color: #2b2a2c;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.about-me {
+  padding-bottom: 130px;
+}
+.about-me__all {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.designer_photo {
+  width: 542px;
+  height: 606px;
+  background: url("https://s8.hostingkartinok.com/uploads/images/2019/01/156b7f710fa0774f590f0447f3fd5338.png") no-repeat left top;
+}
+.about-me__info {
+  height: 442px;
+  width: 478px;
+  padding-top: 100px;
+  margin-right: 99px;
+}
+.about-me__headline {
+  color: #2b2a2c;
+  font-size: 45px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.about-me__text {
+  color: #717072;
+  font-size: 12px;
+  line-height: 23px;
+  padding-bottom: 53px;
+  padding-top: 22px;
+}
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social__link {
+  font-size: 20px;
+  margin-right: 13px;
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-menu a {
+  font-size: 14px;
+  padding-right: 30px;
+}
+.footer-menu a:hover {
+  color: #fff;
+}
+.footer-button {
+  width: 108px;
+  height: 32px;
+  color: #8d8d8e;
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 16px;
+  border: 1px solid #8d8d8e;
+}
+.footer-button:hover {
+  transform: scale(1.02);
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+    width: 965px;
+  }
+  .projects {
+    margin-bottom: 50px;
+  }
+  .project-card {
+    width: 48%;
+  }
+  .designer_photo {
+    display: none;
+  }
+  .about-me__info {
+    padding-top: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 760px;
+  }
+  .menu-list nav a {
+    margin-left: 10px;
+  }
+  .menu-button {
+    margin-left: 20px;
+  }
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .projects {
+    margin-bottom: 50px;
+  }
+  .project-card {
+    width: 48%;
+  }
+  .designer_photo {
+    display: none;
+  }
+  .about-me__info {
+    padding-top: 0;
+    margin-right: 0;
+  }
+  .footer-info {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-text {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-menu {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .descriprion_small {
+    font-size: 10px;
+  }
+  .menu-list {
+    display: none;
+  }
+  .hero-bg {
+    
+  background: url("https://s8.hostingkartinok.com/uploads/images/2019/01/18301ceec1ef2d05c9cf6eb8c109dcef.png") no-repeat center bottom;
+    background-size: 750px;
+    padding-bottom: 550px;
+    padding-top: 30px;
+  }
+  .cotainer {
+    width: 95%;
+  }
+  .project-card {
+    width: 95%;
+    margin: 30px auto;
+  }
+  .designer_photo {
+    display: none;
+  }
+  .about-me__info {
+    padding-top: 0;
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  .projects {
+    margin-bottom: 50px;
+  }
+  .footer-info {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-text {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-menu {
+    display: none;
+  }
+}
